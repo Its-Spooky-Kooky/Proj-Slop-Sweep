@@ -17,9 +17,9 @@ SlopSweep takes a fundamentally different approach:
 
 ## 🚀 Tech Stack
 
-- **Frontend:** Next.js (App Router), React, Vanilla CSS (with luxury design tokens)
-- **Backend:** Next.js API Routes
+- **Frontend:** React (Vite), Vanilla CSS (with luxury design tokens)
+- **Backend:** Node.js & Express.js
 - **AI Engine:** Google GenAI SDK (`gemini-1.5-flash`)
-- **Database:** Supabase (PostgreSQL)
+- **Database:** MongoDB (via Mongoose)
 
 
