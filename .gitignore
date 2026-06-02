@@ -25,6 +25,7 @@ out/
 # Updated after UI/UX documentation
 # Updated after Backend Schema documentation
 # Updated after Implementation Plan documentation
+# Updated after Model Migration documentation
 
 # Ignore project documentation
 docs/
