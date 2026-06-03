@@ -2,7 +2,7 @@
 
 **SlopSweep** is an advanced, high-end AI content detector designed to identify and filter out "slop"—low-quality, repetitive, or vacuous AI-generated text.
 
-Powered by the robust reasoning capabilities of **Google Gemini 1.5 Flash**, SlopSweep doesn't just give you a generic percentage score; it deeply analyzes the substance of the text.
+Powered by the robust reasoning capabilities of **Groq free API model**, SlopSweep doesn't just give you a generic percentage score; it deeply analyzes the substance of the text.
 
 
 ## 🌟 What Makes SlopSweep Different?
