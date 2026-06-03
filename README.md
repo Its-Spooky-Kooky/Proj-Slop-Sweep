@@ -11,7 +11,7 @@ Most AI detectors on the market rely on statistical perplexity or burstiness. Th
 
 SlopSweep takes a fundamentally different approach:
 
-1. **Gemini-Level Reasoning:** Instead of relying on rigid statistical models, we use a highly capable model (Gemini 1.5 Flash) to evaluate the text semantically. It looks for the hallmark signs of AI "slop"—overuse of transitional phrases, lack of concrete examples, robotic neutrality, and circular logic.
+1. **Groq-Level Reasoning:** Instead of relying on rigid statistical models, we use a highly capable model (Groq 1.5 Flash) to evaluate the text semantically. It looks for the hallmark signs of AI "slop"—overuse of transitional phrases, lack of concrete examples, robotic neutrality, and circular logic.
 2. **Actionable Explanations:** SlopSweep doesn't just return a score of 0 to 100. It provides a detailed, human-readable breakdown of *why* the text was flagged, highlighting the exact reasons it feels artificial.
 3. **Premium Experience:** Most developer tools look like raw dashboards. SlopSweep is designed with a luxury, high-end aesthetic (inspired by modern real estate UI) with glassmorphism, elegant typography, and smooth micro-animations. It treats content moderation as a premium experience.
 4. **Substance over Syntax:** We care less if a human used AI to fix their grammar, and more if the text itself is completely devoid of original thought or value.
@@ -21,7 +21,7 @@ SlopSweep takes a fundamentally different approach:
 
 - **Frontend:** React (Vite), Vanilla CSS (with luxury design tokens)
 - **Backend:** Node.js & Express.js
-- **AI Engine:** Google GenAI SDK (`gemini-2.0-flash`)
+- **AI Engine:** Groq SDK (`llama-3.3-70b`)
 - **Database:** MongoDB (via Mongoose)
 
 ---
@@ -32,7 +32,7 @@ SlopSweep takes a fundamentally different approach:
 Since this project uses a separated architecture (React Frontend + Node.js Backend), you need to run two servers simultaneously.
 
 ### Prerequisites
-Ensure you have your `.env` file set up inside the `backend/` folder with your valid `GEMINI_API_KEY` and `MONGO_URI`.
+Ensure you have your `.env` file set up inside the `backend/` folder with your valid `GROQ_API_KEY` and `MONGO_URI`.
 
 ### Step 1: Start the Backend Server
 You need to start the Express API so that the AI analysis and database connections work.
@@ -70,5 +70,5 @@ You need to start the React UI so you can interact with the app in your browser.
 3. Paste your text into the luxurious text area and click **Sweep for Slop**!
 
 ### Common Issues
-- **"Rate limit reached":** You have hit the Google Gemini free-tier per-minute quota. Just wait exactly 60 seconds and try clicking analyze again.
+- **"Rate limit reached":** You have hit the Groq free-tier per-minute quota. Just wait exactly 60 seconds and try clicking analyze again.
 - **"MongoDB Connection Error":** Double check that your current IP address is whitelisted in your MongoDB Atlas dashboard under "Network Access".

@@ -46,7 +46,7 @@ function App() {
         <h1 className="hero__title">
           Detect the <span>Slop.</span>
         </h1>
-        <p className="hero__subtitle">Powered by Google Gemini</p>
+        <p className="hero__subtitle">Powered by Groq</p>
       </header>
 
       {/* Input */}
