@@ -5,7 +5,7 @@
 Powered by the robust reasoning capabilities of **Groq free API model**, SlopSweep doesn't just give you a generic percentage score; it deeply analyzes the substance of the text.
 
 
-## 🌟 What Makes SlopSweep Different?
+##  What Makes SlopSweep Different?
 
 Most AI detectors on the market rely on statistical perplexity or burstiness. They often fail by flagging human-written text that happens to be highly structured, or missing AI text that has been lightly edited. 
 
@@ -17,7 +17,7 @@ SlopSweep takes a fundamentally different approach:
 4. **Substance over Syntax:** We care less if a human used AI to fix their grammar, and more if the text itself is completely devoid of original thought or value.
 
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 - **Frontend:** React (Vite), Vanilla CSS (with luxury design tokens)
 - **Backend:** Node.js & Express.js
@@ -27,7 +27,7 @@ SlopSweep takes a fundamentally different approach:
 ---
 
 
-## 🏃 How to Run SlopSweep Locally
+##  How to Run SlopSweep Locally
 
 Since this project uses a separated architecture (React Frontend + Node.js Backend), you need to run two servers simultaneously.
 
@@ -61,7 +61,6 @@ You need to start the React UI so you can interact with the app in your browser.
    ```bash
    npm run dev
    ```
-   *You should see a message saying the server is running (usually on `http://localhost:5173`).*
    **Keep this terminal window open.**
 
 ### Step 3: Use the Application
