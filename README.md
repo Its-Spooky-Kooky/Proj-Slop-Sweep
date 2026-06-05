@@ -1,15 +1,15 @@
-# SlopSweep
+# Slop-Sweep
 
-**SlopSweep** is an advanced, high-end AI content detector designed to identify and filter out "slop"—low-quality, repetitive, or vacuous AI-generated text.
+**Slop-Sweep** is an advanced, high-end AI content detector designed to identify and filter out "slop"—low-quality, repetitive, or vacuous AI-generated text.
 
 Powered by the robust reasoning capabilities of **Groq free API model**, SlopSweep doesn't just give you a generic percentage score; it deeply analyzes the substance of the text.
 
 
-##  What Makes SlopSweep Different?
+##  What Makes Slop-Sweep Different?
 
 Most AI detectors on the market rely on statistical perplexity or burstiness. They often fail by flagging human-written text that happens to be highly structured, or missing AI text that has been lightly edited. 
 
-SlopSweep takes a fundamentally different approach:
+Slop-Sweep takes a fundamentally different approach:
 
 1. **Groq-Level Reasoning:** Instead of relying on rigid statistical models, we use a highly capable model (Groq 1.5 Flash) to evaluate the text semantically. It looks for the hallmark signs of AI "slop"—overuse of transitional phrases, lack of concrete examples, robotic neutrality, and circular logic.
 2. **Actionable Explanations:** SlopSweep doesn't just return a score of 0 to 100. It provides a detailed, human-readable breakdown of *why* the text was flagged, highlighting the exact reasons it feels artificial.
@@ -27,7 +27,7 @@ SlopSweep takes a fundamentally different approach:
 ---
 
 
-##  How to Run SlopSweep Locally
+##  How to Run Slop-Sweep Locally
 
 Since this project uses a separated architecture (React Frontend + Node.js Backend), you need to run two servers simultaneously.
 
